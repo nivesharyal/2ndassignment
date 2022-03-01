@@ -11,23 +11,23 @@ public abstract class Bank {
         return BankA;
     }
 
-    public void setA(double a) {
-        BankA = a;
+    public void setA(double BankA ) {
+        this.BankA = BankA;
     }
 
     public double getB() {
         return BankB;
     }
 
-    public void setB(double b) {
-        BankB = b;
+    public void setB(double BankB) {
+        this.BankB = BankB;
     }
 
     public double getC() {
         return BankC;
     }
 
-    public void setC(double c) {
-        BankC = c;
+    public void setC(double BankC) {
+        this.BankC = BankC;
     }
 }
